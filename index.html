@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> F-Strings vs Format Python 3.X</title>
+</head>
+<body>
+    <article>
+        <h1>F-Strings vs Format Python 3.X</h1>
+        <label>Autor: Mahonri Martinez Date:14/03/2023</label>
+        <ul>
+            <h2>Topics</h2>
+            <li><a href="#Introduction">Introduction</a></li>
+            <li><a href="#format">Concatenating in python with .format()</a></li>
+            <li><a href="#f">Concatenating in python with f</a></li>
+        </ul>
+    <br>
+    <div id="Introduction">
+    <p>Python is a high-level programming language use for a lot of people for different pruposes such as: data science, web programming, scripting, ML/AI,etc.</p>
+    <p>I am going to show you  the different ways of concatenating strings in python. Concatenating is easy we just write two differents sentence and we combine them in one line</p>
+    <p>A variable is a simple data structure that help us to store information in it. We can store a number, a name, an image in a variable. In a variable we can just store one value.If we want to store different variables, we can create different variables with different names or use a different data structure such as list, tuples,dictionaries,etc for store the information</p>
+    </div>
+    <div id="format">
+    <p>In python we can use the method format for concatenating a string with a variable.In the next example we can see the use of this function with one variable</p>
+    <br>
+    <code>
+        a=10
+        <br>
+        print("El numero es {0}".format(a))
+    </code>
+    <br>
+    <p>Example of concatenating two variables with format()</p>
+    <code>
+        #Here we declare and assign the values to this two variables in python
+        <br>
+        a,b=10,20
+<br>
+        print("Variable 1 is {0} and the variable 2 is {1}".format(a,b))
+    </code>
+    </div>
+    <br>
+    <div id="f">
+        <p>Since the version 3.6 of Python we can use the f-Strings.</p>
+        <p>In pyhton we can use this for concatenating a variable with a string, but for using the f-strings. In the next example we can find the use of this f-strings.</p>
+        <code>
+            l=int(input("Ingresa el lado del cuadrado"))
+<br>
+a=l**2
+<br>
+print (f"El aerea del cuadrado es {a}")
+        </code>
+    </div>
+    </article>
+    <div>
+
+    </div>
+</body>
+</html>
